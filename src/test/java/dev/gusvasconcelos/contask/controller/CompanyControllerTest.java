@@ -19,8 +19,7 @@ import jakarta.transaction.Transactional;
 @AutoConfigureMockMvc
 @ActiveProfiles("test")
 @Transactional
-public class CompanyControllerTest {
-
+public class CompanyControllerTest extends BaseTest {
     @Autowired
     private MockMvc mockMvc;
 
